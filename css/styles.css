@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 
+/*body {
+  height: 2000px;
+  color: #757575;
+  font-size: 18px;
+  line-height: 32px;
+  background-image: url("../img/faceC.png"), url("../img/shoes.png"), url("../img/garlic.png"), url("../img/handTR.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0% 15%, 100% 20%, 0% 38%, 100% 30%;
+  background-size: auto, 20%, 37%, 30%;
+
+}*/
+
 body {
   height: 2000px;
   color: #757575;
   font-size: 18px;
   line-height: 32px;
-  /*background-image: url("../img/inksplotch.jpg");*/
+  background-image: url("../img/faceC.png"), url("../img/handTR.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0% 15%, 100% 28%;
+  background-size: auto, 43%;
 
 }
+
+/*.header {
+  background-image: url("../img/headerA.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+}*/
 
 h3, h1, h4, h2 {
   font-family: 'Amatic SC', cursive;
@@ -26,11 +47,12 @@ h2 {
 
 
 #mediabuttons {
-  text-align: center;
+  padding-top: 30px;
+  text-align: left;
 }
 
 img.social {
-  width: 40px;
+  width: 33px;
 }
 
 a {
@@ -55,8 +77,8 @@ h1 {
   position: fixed;
   left: 0px;
   top: 10px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   transition-duration: 500ms;
   /*display: none;*/
 }
@@ -78,20 +100,24 @@ h1 {
 
 
 #rules {
-  width: 60%;
+  width: 80%;
   float: left;
-  background-color: #fff;
   padding: 25px;
   margin-bottom: 20px;
-  border-radius: 25px;
 }
 
 #prompts {
-  width: 60%;
-  background-color: #fff;
+  width: 70%;
   padding: 25px;
+  padding-bottom: 50px;
   margin-bottom: 20px;
   margin: auto;
+  clear:both;
+}
+
+#prompts h3 {
+  text-align: center;
+  font-size: 85px;
 }
 
 <<<<<<< HEAD
@@ -105,17 +131,37 @@ h1 {
 #pod {
   padding: 50px;
   text-align: center;
+  background-image: url("../img/strokeA.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 #pod h2 {
   color: #000;
 }
-#about, #tips {
-  width: 60%;
+#about {
+  width: 70%;
   float: right;
-  background-color: #fff;
   padding: 25px;
   margin-bottom: 20px;
+
+=======
+/*#pen {
+  filter: invert(100%);*/
+>>>>>>> scroll
+}
+
+#tips {
+  width: 90%;
+  float: left;
+  padding: 25px;
+  margin-right: 45px;
+  margin-bottom: 20px;
   border-radius: 25px;
+  background-image: url("../img/inksplotchB.png");
+  background-repeat: no-repeat;
+  background-position: 95% 110%;
+  background-size: 35%;
 
 =======
 /*#pen {
@@ -140,7 +186,7 @@ h1 {
 }*/
 
 #tips ul li {
-  list-style-type: circle;
+  list-style-image: url("../img/bullet-3.png");
   padding-bottom: 15px;
   margin-left: 30px;
 }
@@ -156,6 +202,11 @@ footer {
   padding: 25px;
   margin-bottom: 20px;
   padding-top: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .redcolor {
